@@ -76,76 +76,77 @@ LevSwap not only keeps the products at the basic level, but also has real applic
 * **Bk Lee:**  Former senior product manager of the world's top 500 financial institutions with rich experience in financial products.
 
 
-### 联络方式
-* **联络人:** BK Lee
-* **电邮:** bk@up-protocol.io
+### Contact
+* **Contact Name:** BK Lee
+* **Contact Email:** bk@up-protocol.io
 * **Website:** http://levswap.com
 
-### 法律结构
-* **注册地址:**  /
-* **注册法人实体:**  /
-
-### 团队经验
+### Team’s experience
 
 The core team members have rich experience in blockchain system developing, including consensus, p2p, evm and smart contract. They have ever maintained a well-known enterprice blockchain platform.
 The team also has related experience in DeFi protocol design and developing.
 
 
-### 团队 Github 代码库
-* https://github.com/<your_repo_1>
-* https://github.com/<your_repo_2>
+### Team Code Repos
+* https://github.com/levswap
 
-### 团队 LinkedIn 资料
-* https://www.linkedin.com/<person_1>
-* https://www.linkedin.com/<person_2>
+## Development Roadmap :nut_and_bolt:
+We expect that the entire project will be split into two grants. The first grant includes the development of token synthetic and the implementation of core modules. We will implement the basic transfer operation ability of a synthetic token in the test network, which can be tested normally.And in this grant we will implement pricing the synthetic token which represent long and short. The second grant will include the development of a complete product.We will realize the calculation and display of dynamic fee and real-time leverage ratio, and increase the mainstream composite assets.And the leveraged trading will be ompletely and smoothly.
 
-## 开发路线图 :nut_and_bolt:
+    -----------------------------------------------------------
+    | Substrate chain with mint & pricing module               |  <---- This grant
+    -----------------------------------------------------------
+    | Realize dynamic fee and exchange module                  |  <---- Future grant
+    -----------------------------------------------------------
+    | More synthetic Assets and support community list         |
+    -----------------------------------------------------------
 
-本节应将开发路线图划分为多个里程碑。由于里程碑将出现在拨款合同中，因此有助于描述我们应该期望的功能，以及我们如何检查产品中是否存在此功能。每当交付里程碑时，我们都会参考合同以确保一切均按预期交付。
 
-下面我们提供了一个**路线图例子**。 在描述中，应该清楚说明项目与 Substrate 或与 Polkadot 的关系。 我们建议工作范围应在3个月内，并且团队将路线图的结构定为1个月= 1个里程碑。
+### Overview
 
-在每个里程碑:
-* 请确保包括您的软件规范。将其视为合同 - 详细程度必须足以验证稍后软件是否符合规格。为了帮助您定义，我们在[此处](../src/grant_guidelines_per_category.md)建立了一个档案，其中包含一些拨款类别的例子。
-* 请列出每个里程碑需求的资金总额。
-* 请注意，每个里程碑都需要文档（例如教程，API 规格，架构详细信息)。 这确保了该代码可以被社区广泛使用。
-* 请提供一个包含单元测试和集成测试的测试套件，以及有关如何运行它们的教程。
-* 请致力提供 dockerfiles 用于交付项目。
-* 请指出里程碑的所需时间，以及在每个里程碑上工作的全职员工的人数，并包括日数以及每天的费用。
-* 成果(Deliverable) 0a-0d 是强制性的，不可删除，除非您在 PR 的 `其他说明(Additional Notes)` 部分中明确指定了原因（例如 里程碑 X 是面向研究的，因此没有可测试的代码）
+* **Total Estimated Duration:** 3 months
+* **Full-time equivalent (FTE):**  5
+* **Total Costs:** 1.35 BTC
 
-### 概览
-* **估算总需要时间:** 整个项目需时 (例如 2个月)
-* **全职人力工时(FTE):**  受雇人的工作量 ([请参考这里](https://en.wikipedia.org/wiki/Full-time_equivalent)) (例如 2 FTE)
-* **总金额:** 整个项目所需要的 BTC 或 DAI 金额。在提交申请时，第一次申請的金额需要低于 $30k 美元 (例如: 0.50 BTC)，而之后接着的申请可以是 $100k。
+### Milestone 1 — Implement Substrate mint&pricing Module
 
-### 里程碑 1 例子 — 实现 Substrate 模块
-* **估计时间:** 1个月
-* **FTE:**  1
-* **费用:** 0.75 BTC
+In this milestone, we developed the mint module and the pricing module. we will complement mint synthetic assets tokens--bull and bear, while the synthetic assets can be pricing successful. After completing this milestone, we can basically transfer the casting synthetic assets tokens which is represant long and short .
 
-| 数字(Number) | 成果(Deliverable)   | 规范(Specification)                                                                                                                                                                                                                                                          |
+* **Estimated Duration:** 1.6 month
+* **FTE:**  5
+* **Costs:** 18000DAI
+
+| Number | Deliverable  | Specification                                                                                                                                                                                                                                                          |
 | ------------ | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0a.          | License             | Apache 2.0 / MIT / Unlicense                                                                                                                                                                                                                                                 |
-| 0b.          | Documentation       | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c.          | Testing Guide       | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests                                                                                                                                |
-| 0d.          | Article/Tutorial    | We will write an article or tutorial that explains the work done as part of the grant.                                                                                                                                                                                       |
-| 1.           | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone)                                                                                                                                                    |
-| 2.           | Substrate module: Y | We will create a Substrate module that will...                                                                                                                                                                                                                               |
-| 3.           | Substrate module: Z | We will create a Substrate module that will...                                                                                                                                                                                                                               |
-| 4.           | Substrate chain     | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible)                                                                                                                                           |
-| 5.           | Docker              | We will provide a dockerfile to demonstrate the full functionality of our chain                                                                                                                                                                                              |
+| 1. | Documentation | Instructions and examples for use mint  and pricing        |
+| 2. | Testing Guide | provide test suite (mock and test files) for the mint and pricing describing how the module can be tested. |
+| 3. | Substrate module: mint | We will create a Substrate module mint. Bull tokens and Bear tokens can be minted. |
+| 4. | Substrate module: pricing | We will create a pricing module that both the target price and the long/short tokens‘ price can be successfully acquired and displayed. |
+| 5. | Tutorial | We will write an tutorial about how to use mint & pricing. |
+| 6. | Testing | The code will have proper unit-test coverage to ensure functionality and robustness. |
+| 7. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain with mint  and pricing moudle. |                                                                                                                                                                                             |
 
-### 里程碑 2 例子 - 额外功能
-...
+### Milestone 2 — Implement Substrate exchange Module
 
-## 未来计划
-请包括团队的长远计划和意向。
+At this milestone, we developed the exchange module. The first milestone has been able to mint synthetic assets. When this milestone is completed, our synthetic assets will be available for trading.Meanwhile，the dynamic fee function will also run normally when the user is trading.
 
-## 额外资料 :heavy_plus_sign:
-任何额外资料你认为对这个申请是相关但是还没有包括。
+- **Estimated Duration:** 1.4 month
+- **FTE:**  5
+- **Costs:** 12000DAI
 
-其他额外资料包括:
-* 到目前为止已经做了什么工作？
-* 是否有其它团队已经有在财务上为该项目做出了贡献?
-* 你是否已经申请了其它的拨款?
+| Number | Deliverable                | Specification                                                |
+| ------ | -------------------------- | ------------------------------------------------------------ |
+| 0.     | License                    | Apache 2.0                                                   |
+| 1.     | Documentation              | Instructions and examples for use exchange.                  |
+| 2.     | Testing Guide              | provide test suite (mock and test files) for the exchange describing how the module can be tested. |
+| 4.     | Substrate module: Exchange | We will create a exchange module that will be used to trade synthetic assets. And dynamic fee is also implemented in the exchange module. |
+| 5.     | Tutorial                   | We will write an tutorial about how to use exchange. |
+| 6.     | Testing                    | The code will have proper unit-test coverage to ensure functionality and robustness. |
+| 7.     | Docker                     | We will provide a dockerfile to demonstrate the full functionality of our chain with exchange module |
+
+## Future Plans
+In the future, we will support more leveraged trading of synthetic assets, such as stocks and gold, and will explore portfolio possibilities with other projects in Boca Ecology. 
+Fight for the goal that “all things can be synthesized and leveraged”.
+
+## Additional Information :heavy_plus_sign:
+So far we have completed the project possibility verification evaluation, completed the Substrate-based architecture design, and released the project white paper.
