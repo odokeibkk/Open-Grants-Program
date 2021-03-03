@@ -69,24 +69,27 @@ LevSwap not only keeps the products at the basic level, but also has real applic
 
 ### Team Member
 * **Rudy Tang:** Senior Blockchain Developer, Head of Blockchain Technology Research.3 years Blockchain Research and Design Experience, 6 years architecture and development Experience.
-* **Simon Huang:**   
+* **Simon Huang:** Former crypto wallet product director, experienced in asset manage solution and DeFi protocol design.Former PM in top 500 financial institutions.
 * **Xin Ge:**  
 * **Mike Zhang:**  
 * **Rhyme Peng:**  
-* **Bk Li:**  Former senior product manager of the world's top 500 financial institutions with rich experience in financial products.
+* **Bk Lee:**  Former senior product manager of the world's top 500 financial institutions with rich experience in financial products.
 
 
 ### 联络方式
-* **联络人:** 联络人全名 (例如 陈大文)
-* **电邮:** 联络人电邮 (例如 john@duo.com)
+* **联络人:** BK Lee
+* **电邮:** bk@up-protocol.io
 * **Website:** http://levswap.com
 
 ### 法律结构
-* **注册地址:** 您注册的法人实体的地址 (如果有)。 请保持在同一行。(例如 High Street 1, London LK1 234, UK)
-* **注册法人实体:** 您的注册法人名称（如果有)。(例如 Duo Ltd.)
+* **注册地址:**  /
+* **注册法人实体:**  /
 
 ### 团队经验
-请描述团队的相关经验。如果项目涉及开发工作，我们将会很有兴趣您能挑出团队成员在过去的项目中所做出的一些有趣的代码成果。对于与研究相关的拨款，请参考相关领域中的过去项目。
+
+The core team members have rich experience in blockchain system developing, including consensus, p2p, evm and smart contract. They have ever maintained a well-known enterprice blockchain platform.
+The team also has related experience in DeFi protocol design and developing.
+
 
 ### 团队 Github 代码库
 * https://github.com/<your_repo_1>
@@ -121,17 +124,17 @@ LevSwap not only keeps the products at the basic level, but also has real applic
 * **FTE:**  1
 * **费用:** 0.75 BTC
 
-| 数字(Number) | 成果(Deliverable) | 规范(Specification) |
-| ------------- | ------------- | ------------- |
-| 0a. | License | Apache 2.0 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
-| 0c. | Testing Guide | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests |
-| 0d. | Article/Tutorial | We will write an article or tutorial that explains the work done as part of the grant.
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone) |
-| 2. | Substrate module: Y | We will create a Substrate module that will... |
-| 3. | Substrate module: Z | We will create a Substrate module that will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Docker | We will provide a dockerfile to demonstrate the full functionality of our chain |
+| 数字(Number) | 成果(Deliverable)   | 规范(Specification)                                                                                                                                                                                                                                                          |
+| ------------ | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0a.          | License             | Apache 2.0 / MIT / Unlicense                                                                                                                                                                                                                                                 |
+| 0b.          | Documentation       | We will provide both inline documentation of the code and a basic tutorial that explains how a user can (for example) spin up one of our Substrate nodes. Once the node is up, it will be possible to send test transactions that will show how the new functionality works. |
+| 0c.          | Testing Guide       | The code will have unit-test coverage (min. 70%) to ensure functionality and robustness. In the guide we will describe how to run these tests                                                                                                                                |
+| 0d.          | Article/Tutorial    | We will write an article or tutorial that explains the work done as part of the grant.                                                                                                                                                                                       |
+| 1.           | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be coded for the first milestone)                                                                                                                                                    |
+| 2.           | Substrate module: Y | We will create a Substrate module that will...                                                                                                                                                                                                                               |
+| 3.           | Substrate module: Z | We will create a Substrate module that will...                                                                                                                                                                                                                               |
+| 4.           | Substrate chain     | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible)                                                                                                                                           |
+| 5.           | Docker              | We will provide a dockerfile to demonstrate the full functionality of our chain                                                                                                                                                                                              |
 
 ### 里程碑 2 例子 - 额外功能
 ...
