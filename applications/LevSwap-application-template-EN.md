@@ -2,7 +2,7 @@
 
 * **Project Name:** LevSwap
 * **Team Name:** Up Labs
-* **Payment Address:** 比特币 或 以太坊(DAI) 的收款地址。我们暂时不会接收其它币种。(例如 123mp123...)
+* **Payment Address:** 0xFB48Fd1F94e54532d9fA1432637324F64Ad1234A
 
 ## Project Overview :page_facing_up:
 Levswap is a never-ending and easy-to-use trading platform based on synthetic asset leverage tokens. 
@@ -112,7 +112,7 @@ We expect that the entire project will be split into two grants. The first grant
 
 In this milestone, we developed the mint module and the pricing module. we will complement mint synthetic assets tokens--bull and bear, while the synthetic assets can be pricing successful. After completing this milestone, we can basically transfer the casting synthetic assets tokens which is represant long and short .
 
-* **Estimated Duration:** 1.6 month
+* **Estimated Duration:** 1 month
 * **FTE:**  5
 * **Costs:** 18000DAI
 
@@ -130,7 +130,7 @@ In this milestone, we developed the mint module and the pricing module. we will 
 
 At this milestone, we developed the exchange module. The first milestone has been able to mint synthetic assets. When this milestone is completed, our synthetic assets will be available for trading.Meanwhile，the dynamic fee function will also run normally when the user is trading.
 
-- **Estimated Duration:** 1.4 month
+- **Estimated Duration:** 2 month
 - **FTE:**  5
 - **Costs:** 12000DAI
 
